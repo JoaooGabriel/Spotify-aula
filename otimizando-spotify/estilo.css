@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px){
+	body{
+		background:red; 
+	}
+	p{
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 767px){
+	body{
+		background:blue; 
+	}
+	p{
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 992px){
+	body{
+		background:orange; 
+	}
+	p{
+		font-size: 60px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	body{
+		background:white; 
+	}
+	p{
+		font-size: 100px;
+	}
+}
+
+/*--Overflow--*/
+.exemplo{
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	overflow: /*visible, hidden, scroll, auto*/
+}
